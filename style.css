@@ -5,5 +5,11 @@
     transform: translate(-50%, -50%);
     color: rgb(0, 197, 223);
     font-size: 300%;
-
+}
+.block1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: rgb(58, 6, 201);
+    font-size: 200%;
 }
