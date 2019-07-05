@@ -1,15 +1,48 @@
-.hello {
+html {
+    background-color: rgb(217, 217, 255);
+  }
+.block1 {
+    font-family: cursive;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(0, 197, 223);
+    color: rgb(41, 7, 54);
     font-size: 300%;
 }
-.block1{
+.block2{
+    font-family: cursive;
     position: absolute;
-    top: 10%;
-    left: 10%;
-    color: rgb(58, 6, 201);
-    font-size: 200%;
+    top: 27%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: rgb(16, 0, 59);
+    font-size: 170%; 
+}
+
+.link1{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: rgb(96, 0, 185);
+    font-size: 200%; 
+}
+.link1:hover {
+    text-shadow: 1px 1px 1px #6A5F55;
+}
+.link2{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: rgb(96, 0, 185);
+    font-size: 200%; 
+}
+.link2:hover{
+    text-shadow: 1px 1px 1px #6A5F55;
 }
