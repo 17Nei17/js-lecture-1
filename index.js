@@ -13,7 +13,6 @@ const server = http.createServer(function (request, responce) {
         const content = fs.readFileSync ('style.css','utf8'); 
         responce.end(content); 
     }
-
 })
 server.listen(process.env.PORT || 3000 );
 console.log('server started');
