@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Started!</title>
+    <title>Document</title>
 </head>
-<body> 
-    <div class="block1">
-         Новак Светлана  
-    </div>
-    <div class="block2">
-        Хобби: Чтение, онлайн игры, рисование
-    </div>
-            <p><a href="https://github.com/17Nei17/js-lecture-1" class="link1" >Cсылка на GitHub</a> </a></p>
+<body>
+   <form id='file-form'>
+       <input type='file' name='file' >
+       <input type="submit" value='Upload'>
+   </form>
+   <form id='spisok'>
+    <input type="button" value='all users'>
+</form>
+<form id='comment'>
+    <input type="button" id='button2' value='comment'>
+</form>
+<form action=""  name="add" id="form">
+
+<center>логин:</center>
+<center><input type="text"   id="key" /></center>
+<center>пароль</center>
+<center><input type="text"   id="value" /></center>
+<center> <input type="button" id='log' value='вход'></center> 
+</form>
+    <script type="module" src='index.js'></script>
+    <script type="module" src='comment.js'></script>
 
 </body>
 </html>
